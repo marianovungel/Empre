@@ -1,0 +1,25 @@
+.ContentClientes{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.clenteTicle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.centerTicleContent{
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1.7rem;
+    padding: 20px 0px;
+    font-weight: 600;
+}
+.TabelaClient{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 20px;
+}

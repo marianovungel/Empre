@@ -1,0 +1,57 @@
+.ContentLogin{
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 130px;
+}
+.formLogin{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    /* margin: 130px auto 50px auto; */
+}
+.InputLogin{
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #ddd;
+    border: none;
+    border: 1px solid #bbb;
+    font-size: 1.1rem;
+}
+.ButtonLogin{
+    width: 90%;
+    height: 40px;
+    background-color: #CB6CE6;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.create{
+    position: absolute;
+    top: 90px;
+    right: 0px;
+    padding: 5px 20px;
+    border: none;
+    border-bottom: 2px solid #000;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #000;
+}
+.create:hover{
+    border-bottom: 2px solid #CB6CE6;
+    color: #CB6CE6;
+    cursor: pointer;
+    transition: 0.3s;
+}
